@@ -11,7 +11,7 @@ from utils.constants import NAME_BD
 from creqte_db import create_bd
 
 
-path_f = '../download/contract.xlsx'
+path_f = '../app_srm/download/contract.xlsx'
 range_val = (1, 309)
 # 318
 errors_list = []
@@ -159,8 +159,6 @@ def download(path: str, range_tab: Tuple[int, int]) -> List[str]:
                     ))
 
         return errors_list
-
-
 
 
 if __name__ == "__main__":

@@ -20,7 +20,7 @@ def add_additional_db(table: str, additional: Additional) -> None:
     """
     Записывает в базу новое дополнительное соглашение
     :param table: название таблицы куда идет запись
-    :param additional:  обект класса допники
+    :param additional: обект класса допники
     """
     request_sql = ''
     parametrs = (
